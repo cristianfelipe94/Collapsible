@@ -1,2 +1,0 @@
-# Collapsible
-Collapsible library
