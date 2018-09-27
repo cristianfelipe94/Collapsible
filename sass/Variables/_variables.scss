@@ -1,0 +1,27 @@
+$mainBackgroundColor: #3c2f2f;
+$collapsibleWidth: 400px;
+$collapsiblePosition: 20vh;
+$btnBackgroundColor: #fff4e6;
+
+$btnBorder: 2px solid $btnBackgroundColor;
+
+%defaulStatus {
+    display: block; 
+    color: $mainBackgroundColor;
+    background-color: $btnBackgroundColor;
+    text-align: center;
+    padding: 0.5em;
+}
+
+%hideStatus {
+    display: none;
+    overflow:hidden;
+}
+
+%showOptions {
+    display: block; 
+    color: $mainBackgroundColor;
+    background-color: $btnBackgroundColor;
+    text-align: center;
+    padding: 0.5em;
+}

@@ -1,0 +1,42 @@
+html{
+    background-color: $mainBackgroundColor;
+    overflow: hidden;
+}
+
+#accordion{
+    margin: 0 auto;
+    position: relative;
+    width: $collapsibleWidth;
+    top: $collapsiblePosition;
+}
+
+.botones{
+    border-bottom: $btnBorder;
+}
+
+h3{
+    background-color: #be9b7b;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em; 
+    margin: 0;
+}
+
+h3:hover{
+    background-color: #854442;
+    color: #3c2f2f;
+    border-top: 2px solid $btnBorder;
+}
+
+
+.default{
+    @extend %defaulStatus;
+}
+
+.hide {
+    @extend %hideStatus;
+}
+
+.show {
+  @extend %showOptions;
+}

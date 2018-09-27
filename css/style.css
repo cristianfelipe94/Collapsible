@@ -1,0 +1,44 @@
+.default {
+  display: block;
+  color: #3c2f2f;
+  background-color: #fff4e6;
+  text-align: center;
+  padding: 0.5em; }
+
+.hide {
+  display: none;
+  overflow: hidden; }
+
+.show {
+  display: block;
+  color: #3c2f2f;
+  background-color: #fff4e6;
+  text-align: center;
+  padding: 0.5em; }
+
+html {
+  background-color: #3c2f2f;
+  overflow: hidden; }
+
+#accordion {
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  top: 20vh; }
+
+.botones {
+  border-bottom: 2px solid #fff4e6; }
+
+h3 {
+  background-color: #be9b7b;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 2em;
+  margin: 0; }
+
+h3:hover {
+  background-color: #854442;
+  color: #3c2f2f;
+  border-top: 2px solid 2px solid #fff4e6; }
+
+/*# sourceMappingURL=style.css.map */

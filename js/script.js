@@ -6,15 +6,20 @@ function accordion (){
 
     for(let tabOption  of tabOptions){
         let contentBlock= tabOption.nextElementSibling;
+
+        contentBlock.className='hide';
         
-        tabOption.addEventListener('click', function(){
-            if (!collapsible === true){
-                contentBlock.className='mostrar';
+        tabOption.addEventListener('click', function() {
+
+            if (collapsible !== true){
+                contentBlock.className='show';
                 collapsible = true;
-            } else if (!collapsible === false){
-                contentBlock.className='oculto';
+
+            } else{
+                contentBlock.className='hide';
                 collapsible = false;
             }
+
         });
     } 
 }
